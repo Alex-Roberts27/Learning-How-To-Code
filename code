@@ -1,0 +1,13 @@
+##Musical chairs, flipping variable assingments
+sample_A = "Control_01"
+sample_B = "Treated_01"
+print("sample_A,sample_B")
+# Your code - to swap these labels - here:
+placeholder=sample_A #intermediate variable to change values #
+sample_A=sample_B
+sample_B=placeholder
+print(sample_A,sample_B)
+
+sample_B = "Control_01"
+sample_A = "Treated_01"
+print(sample_A,sample_B)
